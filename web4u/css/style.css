@@ -1,0 +1,125 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:linear-gradient(to right,#1e3c72,#2a5298);
+  color:white;
+}
+
+.main-header{
+  text-align:center;
+  padding:40px;
+  animation:fade 2s;
+}
+
+.navbar{
+  background:black;
+  padding:10px;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+
+.navbar a{
+  color:white;
+  text-decoration:none;
+  padding:6px 15px;
+}
+
+.navbar a:hover{
+  background:orange;
+  border-radius:6px;
+}
+
+.active{
+  background:red;
+  border-radius:6px;
+}
+
+.hero{
+  text-align:center;
+  padding:60px;
+}
+
+button{
+  padding:10px 20px;
+  background:orange;
+  border:none;
+  cursor:pointer;
+}
+
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:40px;
+}
+
+.card{
+  background:white;
+  color:black;
+  width:200px;
+  padding:20px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 0 10px black;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.1);
+}
+
+footer{
+  background:black;
+  text-align:center;
+  padding:10px;
+}
+
+/* CSS Page */
+
+.red{
+  color:red;
+}
+
+.bg{
+  background:blue;
+  padding:20px;
+}
+
+.border{
+  border:3px solid white;
+  padding:20px;
+}
+
+/* Animation */
+
+.box{
+  width:50px;
+  height:50px;
+  background:red;
+  animation:move 3s infinite;
+}
+
+@keyframes move{
+  0%{transform:translateX(0);}
+  50%{transform:translateX(200px);}
+  100%{transform:translateX(0);}
+}
+
+@keyframes fade{
+  from{opacity:0;}
+  to{opacity:1;}
+}
+
+.example-img{
+  width:200px;
+}
+
+.toc{
+  background:black;
+  padding:20px;
+}
+
+.toc li{
+  list-style:none;
+}
