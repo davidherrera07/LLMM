@@ -33,13 +33,14 @@
 | 1    |    24     | [Texto de Enlace](ejercicio24.html) |
 | 1    |    25     | [Texto de Enlace](ejercicio25.html) |
 
-
-
-
-
-
-
 #Prácticas
 
+
+
+
+---
+
+| Práctica | Nombre    | Enlace |
+| -------- | ------    | ------ |
 | Práctica | Web4u     | [Texto de Enlace](https://davidherrera07.github.io/LLMM/web4u/index.html)     |
 | Práctica | Boostrap  | [Texto de Enlace](https://davidherrera07.github.io/LLMM/bootstrap/index.html) |
