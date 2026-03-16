@@ -1,55 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejercicio 5: Párrafos y Encabezados</title>
-  <style>
-    /* Algunos estilos para los párrafos */
-    .izquierda {
-      text-align: left;
-    }
-    .derecha {
-      text-align: right;
-    }
-    .centrado {
-      text-align: center;
-    }
-    .justificado {
-      text-align: justify;
-    }
+    <title>Exercise 5</title>
+    <script>
+        function changeFont(font) {
+            document.getElementById("para").style.fontFamily = font;
+        }
 
-    /* Estilo para los encabezados */
-    h1 {
-      color: darkblue;
-    }
-    h2 {
-      color: darkgreen;
-    }
-    h3 {
-      color: darkred;
-    }
-  </style>
+        function changeImage(src) {
+            document.getElementById("myImg").src = src;
+        }
+
+        function showMessage(msg) {
+            document.getElementById("msgDiv").innerHTML = msg;
+        }
+    </script>
 </head>
 <body>
-  <h1>Este es un encabezado de nivel 1</h1>
-  <p class="izquierda">
-    Este párrafo está alineado a la izquierda. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec est at dolor tincidunt laoreet. Donec pretium feugiat turpis, at sodales nunc vulputate ut.
-  </p>
 
-  <h2>Encabezado de nivel 2</h2>
-  <p class="derecha">
-    Este párrafo está alineado a la derecha. Phasellus vel est nec eros finibus convallis. Curabitur vehicula velit eget lectus aliquam, ac posuere augue hendrerit.
-  </p>
+<h2>Change paragraph style:</h2>
+<p id="para">This is a sample paragraph.</p>
+<button onclick="changeFont('Arial')">Arial</button>
+<button onclick="changeFont('Courier New')">Courier</button>
+<button onclick="changeFont('Times New Roman')">Times</button>
 
-  <h3>Encabezado de nivel 3</h3>
-  <p class="centrado">
-    Este párrafo está centrado. Vivamus vel augue maximus, cursus velit sit amet, ullamcorper eros. Sed vitae mi a augue tincidunt vehicula sit amet vitae nibh.
-  </p>
+<h2>Change image:</h2>
+<img id="myImg" src="image1.jpg" style="height:200px;"><br>
+<button onclick="changeImage('image1.jpg')">Image 1</button>
+<button onclick="changeImage('image2.jpg')">Image 2</button>
+<button onclick="changeImage('image3.jpg')">Image 3</button>
 
-  <h2>Otro encabezado de nivel 2</h2>
-  <p class="justificado">
-    Este párrafo está justificado. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia accumsan mauris, nec dapibus lectus gravida eu. Maecenas sit amet ipsum ac velit luctus lacinia. Integer sit amet ante sit amet lectus vulputate ullamcorper. Duis faucibus, nisl sed facilisis facilisis, ipsum risus iaculis magna, non aliquet neque mauris sit amet sapien.
-  </p>
+<h2>Show messages:</h2>
+<div id="msgDiv"></div>
+<button onclick="showMessage('Message 1')">Message 1</button>
+<button onclick="showMessage('Message 2')">Message 2</button>
+<button onclick="showMessage('Message 3')">Message 3</button>
+
 </body>
 </html>

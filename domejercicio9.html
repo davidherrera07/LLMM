@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>The 5-Second Alert</h2>
+    <p>An alert will appear in 5 seconds unless you stop it!</p>
+    
+    <button onclick="stopMessage()">Stop the Alert</button>
+    <p id="status" style="color: blue;"></p>
+
+    <script>
+        // Store the timeout ID in a variable
+        const myTimer = setTimeout(function() {
+            alert("Time is up! You didn't stop me.");
+            document.getElementById("status").innerText = "Timer finished.";
+        }, 5000);
+
+        function stopMessage() {
+            // Use the ID to cancel the timeout
+            clearTimeout(myTimer);
+            document.getElementById("status").innerText = "Timer has been cancelled.";
+            document.getElementById("status").style.color = "red";
+        }
+    </script>
+
+</body>
+</html>

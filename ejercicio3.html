@@ -1,27 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Vitae</title>
+    <title>Image Selector</title>
+    <script>
+        function cambiaCoche(nombre) {
+            document.getElementById('miImagen').src = nombre;   
+        }
+    </script>
 </head>
 <body>
-    <h1>Currículum Vitae</h1>
+    <h2>Imágenes de coches</h2>
 
+    <img id="miImagen" src="coche1.jpg" style="height:300px"><br>
 
-    <h2>Datos personales</h2>
-    <p><strong>Nombre completo:</strong> Juan Pérez</p>
-    <p><strong>Fecha de nacimiento:</strong> 12 de diciembre de 1982</p>
-    <p><strong>Lugar de nacimiento:</strong> Huelva (España)</p>
-
-
-    <h2>Formación académica</h2>
-    <p>2000-2004: Universidad de Huelva</p>
-    <p>1994-2000: IES La Marisma</p>
-
-
-    <h2>Experiencia laboral</h2>
-    <p>2004-2019: Diseño web</p>
-    <p>2000-2004: Colaboración con diversas ONGs</p>
+    <select onchange="cambiaCoche(this.value)">
+        <option value="coche1.jpg">Coche 1</option>
+        <option value="coche2.jpg">Coche 2</option>
+        <option value="coche3.jpg">Coche 3</option>
+    </select>
 </body>
 </html>

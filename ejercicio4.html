@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Texto preformateado</title>
+    <title>Exercise 4</title>
+    <script>
+        function displayValue() {
+            var inputText = document.getElementById("myInput").value;
+            document.getElementById("demo").innerHTML = inputText;
+        }
+    </script>
 </head>
 <body>
-    <h1>Tu primera página HTML</h1>
 
+<p>Enter a value and display it:</p>
 
-    <pre>
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;¡Hola mundo!&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;¡Hola mundo!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-    </pre>
+<input type="text" id="myInput">
+<button onclick="displayValue()">Show</button>
+
+<p id="demo"></p>
+
 </body>
 </html>

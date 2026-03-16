@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .light {
+            width: 100px;
+            height: 100px;
+            background-color: #333; /* Off */
+            border: 2px solid #000;
+            cursor: pointer;
+        }
+        .light.on {
+            background-color: #ffeb3b; /* On */
+            box-shadow: 0 0 15px #ffeb3b;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Lights Out Game</h2>
+    <p>Goal: Turn all the lights dark!</p>
+    <div class="grid" id="gameGrid">
+        </div>
+
+    <script>
+        const grid = document.getElementById('gameGrid');
+
+        // Create 9 lights
+        for (let i = 0; i < 9; i++) {
+            const bulb = document.createElement('div');
+            bulb.classList.add('light');
+            
+            // Randomly start some as "on"
+            if (Math.random() > 0.5) bulb.classList.add('on');
+            
+            // Add click event to toggle
+            bulb.addEventListener('click', function() {
+                toggleLight(this);
+            });
+
+            grid.appendChild(bulb);
+        }
+
+        function toggleLight(element) {
+            // Check if it has the 'on' class and flip it
+            if (element.classList.contains('on')) {
+                element.classList.remove('on');
+            } else {
+                element.classList.add('on');
+            }
+            checkWin();
+        }
+
+        function checkWin() {
+            const remainingLights = document.querySelectorAll('.light.on').length;
+            if (remainingLights === 0) {
+                setTimeout(() => alert("You win! All lights are out!"), 100);
+            }
+        }
+    </script>
+</body>
+</html>

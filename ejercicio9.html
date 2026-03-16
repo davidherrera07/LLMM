@@ -1,28 +1,37 @@
+Excercise 9. Convert from Celsius to Fahrenheit.
+Modify the following exercises so that we can convert temperature from Celsius to Fahrenheit and viceversa
+
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ejercicio 9: Listas y enlaces</title>
+<script>
+
+
+function muestra() {
+    f = document.getElementById("tbf").value;
+    c = toCelsius(f)
+    document.getElementById("tbc").value = c;
+}
+
+
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+</script>
 </head>
 <body>
-	<h1>Listas y Enlaces</h1>
-	<p>Ejemplo simple de listas ordenadas, desordenadas y enlaces.</p>
 
-	<h2>Lista desordenada</h2>
-	<ul>
-		<li>Elemento A</li>
-		<li>Elemento B</li>
-		<li>Elemento C</li>
-	</ul>
 
-	<h2>Lista ordenada</h2>
-	<ol>
-		<li>Primero</li>
-		<li>Segundo</li>
-		<li>Tercero</li>
-	</ol>
+<h2>JavaScript Functions</h2>
 
-	<p>Fuente de ejemplo: <a href="https://es.wikipedia.org">Wikipedia</a></p>
+
+<p>This example calls a function to convert from Fahrenheit to Celsius:</p>
+<label for="tbf">Fahrenheit : </label>
+<input type="text" id="tbf" name="tbf"> 
+<br>
+<label for="tbc">Celcius : </label>
+<input type="text" id="tbc" name="tbc"> 
+<br>
+<button type="button" onclick="muestra()">Convierte</button> 
 </body>
 </html>
