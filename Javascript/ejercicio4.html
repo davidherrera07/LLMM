@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 4</title>
+    <script>
+        function displayValue() {
+            var inputText = document.getElementById("myInput").value;
+            document.getElementById("demo").innerHTML = inputText;
+        }
+    </script>
+</head>
+<body>
+
+<p>Enter a value and display it:</p>
+
+<input type="text" id="myInput">
+<button onclick="displayValue()">Show</button>
+
+<p id="demo"></p>
+
+</body>
+</html>

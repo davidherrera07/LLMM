@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Function Lab</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.6; background: #f4f4f9; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); max-width: 600px; margin: auto; }
+        input, select, button { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background: #2ecc71; color: white; border: none; cursor: pointer; font-weight: bold; }
+        button:hover { background: #27ae60; }
+        #result { background: #eee; padding: 15px; border-left: 5px solid #2ecc71; min-height: 20px; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>JS Exercise 10: Functions</h2>
+    
+    <label>Input 1 (Value, String, or Array):</label>
+    <input type="text" id="input1" placeholder="e.g. 10 or hello or 1,2,3">
+    
+    <label>Input 2 (Second number or i for filter):</label>
+    <input type="text" id="input2" placeholder="e.g. 20">
+
+    <label>Select Function:</label>
+    <select id="funcSelect">
+        <option value="max">max(a, b)</option>
+        <option value="maxOfThree">maxOfThree(a, b, c)</option>
+        <option value="isVowel">isVowel(char)</option>
+        <option value="translate">Rövarspråket (Translate)</option>
+        <option value="sum">sum(array)</option>
+        <option value="multiply">multiply(array)</option>
+        <option value="reverse">reverse(string)</option>
+        <option value="sortWords">sortWords(array)</option>
+        <option value="findLongestWord">findLongestWord(array)</option>
+        <option value="filterLongWords">filterLongWords(array, i)</option>
+        <option value="charFreq">charFreq(string)</option>
+    </select>
+
+    <button onclick="runFunction()">Execute Function</button>
+
+    <h3>Result:</h3>
+    <p id="result
