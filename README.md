@@ -44,26 +44,26 @@
 
 | Tema | Ejercicio| Enlace |
 | ---- | ---------| ------ |
-| 3    |    1     | [Texto de Enlace](javascript/ejercicio1.html) |
-| 3    |    2     | [Texto de Enlace](javascript/ejercicio2.html) |
-| 3    |    3     | [Texto de Enlace](javascript/ejercicio3.html) |
-| 3    |    4     | [Texto de Enlace](javascript/ejercicio4.html) |
-| 3    |    5     | [Texto de Enlace](javascript/ejercicio5.html) |
-| 3    |    6     | [Texto de Enlace](javascript/ejercicio6.html) |
-| 3    |    7     | [Texto de Enlace](javascript/ejercicio7.html) |
-| 3    |    8     | [Texto de Enlace](javascript/ejercicio8.html) |
-| 3    |    9     | [Texto de Enlace](javascript/ejercicio9.html) |
-| 3    |    10    | [Texto de Enlace](javascript/ejercicio10.html)|
-| 3    |    1     | [Texto de Enlace](javascript/domejercicio1.html) |
-| 3    |    2     | [Texto de Enlace](javascript/domejercicio2.html) |
-| 3    |    3     | [Texto de Enlace](javascript/domejercicio3.html) |
-| 3    |    4     | [Texto de Enlace](javascript/domejercicio4.html) |
-| 3    |    5     | [Texto de Enlace](javascript/domejercicio5.html) |
-| 3    |    6     | [Texto de Enlace](javascript/domejercicio6.html) |
-| 3    |    7     | [Texto de Enlace](javascript/domejercicio7.html) |
-| 3    |    8     | [Texto de Enlace](javascript/domejercicio8.html) |
-| 3    |    9     | [Texto de Enlace](javascript/domejercicio9.html) |
-| 3    |    9     | [Texto de Enlace](javascript/domejercicio10.html)|
+| 3    |    1     | [Texto de Enlace](Javascript/ejercicio1.html) |
+| 3    |    2     | [Texto de Enlace](Javascript/ejercicio2.html) |
+| 3    |    3     | [Texto de Enlace](Javascript/ejercicio3.html) |
+| 3    |    4     | [Texto de Enlace](Javascript/ejercicio4.html) |
+| 3    |    5     | [Texto de Enlace](Javascript/ejercicio5.html) |
+| 3    |    6     | [Texto de Enlace](Javascript/ejercicio6.html) |
+| 3    |    7     | [Texto de Enlace](Javascript/ejercicio7.html) |
+| 3    |    8     | [Texto de Enlace](Javascript/ejercicio8.html) |
+| 3    |    9     | [Texto de Enlace](Javascript/ejercicio9.html) |
+| 3    |    10    | [Texto de Enlace](Javascript/ejercicio10.html)|
+| 3    |    1     | [Texto de Enlace](Javascript/domejercicio1.html) |
+| 3    |    2     | [Texto de Enlace](Javascript/domejercicio2.html) |
+| 3    |    3     | [Texto de Enlace](Javascript/domejercicio3.html) |
+| 3    |    4     | [Texto de Enlace](Javascript/domejercicio4.html) |
+| 3    |    5     | [Texto de Enlace](Javascript/domejercicio5.html) |
+| 3    |    6     | [Texto de Enlace](Javascript/domejercicio6.html) |
+| 3    |    7     | [Texto de Enlace](Javascript/domejercicio7.html) |
+| 3    |    8     | [Texto de Enlace](Javascript/domejercicio8.html) |
+| 3    |    9     | [Texto de Enlace](Javascript/domejercicio9.html) |
+| 3    |    9     | [Texto de Enlace](Javascript/domejercicio10.html)|
 
 
 #Prácticas
