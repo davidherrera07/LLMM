@@ -5,6 +5,8 @@
 
 ---
 
+1º Trimestre
+
 | Tema | Ejercicio | Enlace |
 | ---- | --------- | ------ |
 | 1    |    1      | [Texto de Enlace](ejercicio1.html) |
@@ -32,6 +34,16 @@
 | 1    |    23     | [Texto de Enlace](ejercicio23.html) |
 | 1    |    24     | [Texto de Enlace](ejercicio24.html) |
 | 1    |    25     | [Texto de Enlace](ejercicio25.html) |
+
+
+
+---
+
+2º Trimestre
+
+
+| Tema | Ejercicio| Enlace |
+| ---- | ---------| ------ |
 | 3    |    1     | [Texto de Enlace](javascript/ejercicio1.html) |
 | 3    |    2     | [Texto de Enlace](javascript/ejercicio2.html) |
 | 3    |    3     | [Texto de Enlace](javascript/ejercicio3.html) |
